@@ -59,7 +59,7 @@ function Hero() {
             👋 Hello, I'm
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight">
-            Abdul<br/>Hannan
+            Abdul Hannan
           </h1>
           <div className="text-xl md:text-2xl text-[#d4af37] mb-6 h-8 font-medium">
             {displayed}<span className="animate-pulse">|</span>
