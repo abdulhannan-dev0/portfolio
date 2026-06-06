@@ -3,7 +3,7 @@ function About() {
     <section id="about" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-[#1a1a2e] text-center mb-16">About Me</h2>
-        <div className="grid grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               I'm a Computer Science student at NUTECH, Islamabad, passionate about DevOps and Full Stack Development.
