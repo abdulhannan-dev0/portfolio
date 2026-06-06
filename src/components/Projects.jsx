@@ -33,7 +33,7 @@ function Projects() {
           <p className="text-[#d4af37] text-sm font-bold uppercase tracking-widest mb-3">My Work</p>
           <h2 className="text-4xl font-bold text-[#1a1a2e]">Featured Projects</h2>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map(({ title, badge, desc, stack, live, github }) => (
             <div key={title} className="bg-[#0a0a1a] rounded-2xl p-6 flex flex-col border border-gray-800 hover:border-[#d4af37] transition-all duration-300 hover:shadow-lg hover:shadow-[#d4af37]/10 hover:-translate-y-2">
               {badge && (

@@ -15,7 +15,7 @@ function Skills() {
           <p className="text-[#d4af37] text-sm font-bold uppercase tracking-widest mb-3">What I Know</p>
           <h2 className="text-4xl font-bold text-[#1a1a2e]">Technical Skills</h2>
         </div>
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map(({ category, icon, items }) => (
             <div key={category} className="bg-white rounded-2xl p-6 border border-gray-100 hover:border-[#d4af37] hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center gap-3 mb-4">
