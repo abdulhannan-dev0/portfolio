@@ -20,10 +20,11 @@ function Contact() {
             </a>
           ))}
         </div>
-        <a href="https://abdulhannan-dev0.vercel.app"
-          className="bg-[#d4af37] text-[#0a0a1a] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#f0d060] transition-colors inline-block">
-          Download CV
-        </a>
+            <a href="/Abdul_Hannan_CV.pdf"
+              download="Abdul_Hannan_CV.pdf"
+               className="bg-[#d4af37] text-[#0a0a1a] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#f0d060] transition-colors inline-block">
+               Download CV
+            </a>
       </div>
     </section>
   )
