@@ -4,7 +4,7 @@ const projects = [
     badge: 'LIVE IN PRODUCTION',
     desc: 'Real event ticketing system currently used by NUTECH students. Features registration, payment verification, QR tickets via email, admin panel, and gate scanner.',
     stack: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'Azure', 'Cloudflare'],
-    live: 'https://exercise-headset-isbn-kennedy.trycloudflare.com',
+    live: 'https://hispanic-introduces-eye-jvc.trycloudflare.com',
     github: null,
   },
   {
