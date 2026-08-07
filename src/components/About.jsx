@@ -17,7 +17,7 @@ function About() {
           </div>
           <div className="grid grid-cols-2 gap-6">
             {[
-              { number: '4', label: 'Projects Built' },
+              { number: '5', label: 'Projects Built' },
               { number: '2', label: 'Live Production App' },
               { number: '2+', label: 'Years Self Learning' },
               { number: '4th', label: 'Semester NUTECH' },
