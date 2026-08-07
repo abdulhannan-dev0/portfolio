@@ -15,8 +15,8 @@ const projects = [
     desc: 'Real event ticketing system currently used by NUTECH students. Features registration, payment verification, QR tickets via email, admin panel, and gate scanner.',
     stack: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'Azure', 'Cloudflare'],
     live: 'https://announcements-leaves-seek-wider.trycloudflare.com',
-    github: null,
-  },
+    github: 'https://github.com/abdulhannan-dev0/qawali-night-ticketing',
+   },
   {
     title: 'Battery Shop Management System',
     badge: null,
@@ -38,7 +38,7 @@ const projects = [
     badge: 'AI/ML',
     desc: 'Self-hosted AI assistant running completely offline on Proxmox infrastructure. Voice-controlled via browser Speech API, powered by Ollama (TinyLlama LLM). Zero cloud dependency, full data privacy.',
     stack: ['Ollama', 'Flask', 'Python', 'LXC', 'AI/ML'],
-    live: null,
+    live: 'https://discipline-session-collectors-items.trycloudflare.com',
     github: null,
   },
 ]
