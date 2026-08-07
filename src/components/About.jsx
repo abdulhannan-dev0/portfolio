@@ -17,8 +17,8 @@ function About() {
           </div>
           <div className="grid grid-cols-2 gap-6">
             {[
-              { number: '3', label: 'Projects Built' },
-              { number: '1', label: 'Live Production App' },
+              { number: '4', label: 'Projects Built' },
+              { number: '2', label: 'Live Production App' },
               { number: '2+', label: 'Years Self Learning' },
               { number: '4th', label: 'Semester NUTECH' },
             ].map(({ number, label }) => (
