@@ -57,7 +57,7 @@ function Projects() {
               key={title}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-[#0a0a1a] rounded-2xl p-6 flex flex-col border border-gray-800 hover:border-[#d4af37] transition-all duration-300 hover:shadow-lg hover:shadow-[#d4af37]/10 hover:-translate-y-2"
             >
