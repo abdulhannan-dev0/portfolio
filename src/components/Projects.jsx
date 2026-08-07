@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 const projects = [
   {
     title: 'Kirayana - Multi-Tenant POS System',
@@ -50,8 +52,15 @@ function Projects() {
           <h2 className="text-4xl font-bold text-[#1a1a2e]">Featured Projects</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {projects.map(({ title, badge, desc, stack, live, github }) => (
-            <div key={title} className="bg-[#0a0a1a] rounded-2xl p-6 flex flex-col border border-gray-800 hover:border-[#d4af37] transition-all duration-300 hover:shadow-lg hover:shadow-[#d4af37]/10 hover:-translate-y-2">
+          {projects.map(({ title, badge, desc, stack, live, github }, index) => (
+            <motion.div
+              key={title}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="bg-[#0a0a1a] rounded-2xl p-6 flex flex-col border border-gray-800 hover:border-[#d4af37] transition-all duration-300 hover:shadow-lg hover:shadow-[#d4af37]/10 hover:-translate-y-2"
+            >
               {badge && (
                 <span className="text-xs bg-green-900 text-green-300 px-3 py-1 rounded-full w-fit mb-4 font-bold">{badge}</span>
               )}
@@ -74,7 +83,7 @@ function Projects() {
                   </a>
                 )}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
