@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: 'Kirayana - Multi-Tenant POS System',
+    badge: 'TEAM PROJECT',
+    desc: 'Set up and managed full DevOps infrastructure for a production multi-tenant retail/POS application. Configured Docker Compose orchestration (FastAPI + React + PostgreSQL + Redis), GitHub Actions CI/CD pipelines with self-hosted runners, and automated Alembic migrations. Debugged critical production issues and guided a 6-person dev team on Git workflows.',
+    stack: ['Docker', 'Docker Compose', 'GitHub Actions', 'CI/CD', 'FastAPI', 'PostgreSQL', 'Git Workflow'],
+    live: null,
+    github: null,
+  },
+  {
     title: 'NUTECH Farewell Qawwali Night 2026',
     badge: 'LIVE IN PRODUCTION',
     desc: 'Real event ticketing system currently used by NUTECH students. Features registration, payment verification, QR tickets via email, admin panel, and gate scanner.',
@@ -18,8 +26,16 @@ const projects = [
   {
     title: 'Home Lab Server Infrastructure',
     badge: null,
-    desc: 'Converted old laptop into production-grade server using Proxmox. Created Ubuntu Server VM, configured Docker, and set up self-hosted CI/CD runner with remote Cloudflare access.',
-    stack: ['Proxmox', 'Ubuntu Server', 'Docker', 'GitHub Actions', 'Cloudflare', 'Linux'],
+    desc: 'Converted old laptop into production-grade server using Proxmox. Deployed a 3-node Kubernetes cluster, self-hosted Nextcloud (private cloud storage), and AdGuard Home (network-wide DNS filtering & ad-blocking). Configured self-hosted CI/CD runner with remote Cloudflare access.',
+    stack: ['Proxmox', 'Kubernetes', 'Docker', 'Nextcloud', 'GitHub Actions', 'Cloudflare', 'Linux'],
+    live: null,
+    github: null,
+  },
+  {
+    title: 'Aira - Local AI Voice Assistant',
+    badge: 'AI/ML',
+    desc: 'Self-hosted AI assistant running completely offline on Proxmox infrastructure. Voice-controlled via browser Speech API, powered by Ollama (TinyLlama LLM). Zero cloud dependency, full data privacy.',
+    stack: ['Ollama', 'Flask', 'Python', 'LXC', 'AI/ML'],
     live: null,
     github: null,
   },
