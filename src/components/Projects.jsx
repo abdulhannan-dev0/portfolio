@@ -28,8 +28,8 @@ const projects = [
   {
     title: 'Home Lab Server Infrastructure',
     badge: null,
-    desc: 'Converted old laptop into production-grade server using Proxmox. Deployed a 3-node Kubernetes cluster, self-hosted Nextcloud (private cloud storage), and AdGuard Home (network-wide DNS filtering & ad-blocking). Configured self-hosted CI/CD runner with remote Cloudflare access.',
-    stack: ['Proxmox', 'Kubernetes', 'Docker', 'Nextcloud', 'GitHub Actions', 'Cloudflare', 'Linux'],
+    desc: 'Converted old laptop into production-grade server using Proxmox. Deployed AdGuard Home (network-wide DNS filtering), Nextcloud (private cloud storage), a 3-node Kubernetes cluster, and a full media automation pipeline (Jellyfin, Radarr, Sonarr, Prowlarr, qBittorrent, Bazarr, Jellyseerr) orchestrated across 9 Docker containers, managed via Homarr and Portainer. Secured remote access with Cloudflare Tunnel, keeping admin tools private while user-facing apps stay public.',
+    stack: ['Proxmox', 'Kubernetes', 'Docker', 'Docker Compose', 'Nextcloud', 'AdGuard', 'Homarr', 'Portainer', 'Cloudflare Tunnel', 'Linux'],
     live: null,
     github: null,
   },
