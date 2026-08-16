@@ -14,7 +14,7 @@ const projects = [
     badge: 'LIVE IN PRODUCTION',
     desc: 'Real event ticketing system currently used by NUTECH students. Features registration, payment verification, QR tickets via email, admin panel, and gate scanner.',
     stack: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'Azure', 'Cloudflare'],
-    live: 'https://announcements-leaves-seek-wider.trycloudflare.com',
+    live: 'https://qawali-night.abdulhannanops.dev',
     github: 'https://github.com/abdulhannan-dev0/qawali-night-ticketing',
    },
   {
